@@ -55,3 +55,5 @@ def main(argv):
 
 # call main 
 main(sys.argv)
+
+# to run: python3 filter_q2.py "Software engineers and designers [2173]" 2015
