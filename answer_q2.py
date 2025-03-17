@@ -15,7 +15,8 @@ results = []
 
 for row in csvdata:
     year = row[0]
-    occupation = row[2]
+    # slices off the last 6 chars + extra space (the random [XXXX] number sequence)
+    occupation = row[2][:-7] 
     full_time = row[3]
     hourly_wage = row[5]
 
